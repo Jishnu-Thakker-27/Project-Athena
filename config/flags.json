@@ -1,0 +1,17 @@
+{
+  "feature_flags": {
+    "agent.email": false,
+    "agent.github": false,
+    "agent.internship": false,
+    "agent.calendar": false,
+    "agent.browser": false,
+    "agent.learning": true,
+    "workflow.engine": true,
+    "planner.daily": true,
+    "planner.weekly": false,
+    "memory.consolidation": true,
+    "telemetry.collection": true,
+    "knowledge_graph.v2": false,
+    "vector_search.v2": false
+  }
+}

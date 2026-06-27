@@ -1,0 +1,13 @@
+{
+  "allowed_scrape_domains": [
+    "github.com",
+    "devpost.com",
+    "devfolio.co",
+    "linkedin.com",
+    "internshala.com"
+  ],
+  "allowed_download_extensions": [".pdf", ".txt", ".md", ".csv"],
+  "allowed_file_read_paths": ["data/", "config/", "logs/"],
+  "plugin_signature_check": false,
+  "max_file_size_mb": 10
+}

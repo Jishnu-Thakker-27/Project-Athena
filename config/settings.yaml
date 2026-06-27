@@ -1,0 +1,59 @@
+# ============================================================
+# Athena System Configuration
+# Overrides can be set via .env environment variables.
+# ============================================================
+
+app:
+  name: Athena
+  version: 1.0.0
+  debug: false
+  theme: dark
+
+ollama:
+  base_url: http://localhost:11434
+  default_model: qwen2.5:7b
+  fast_model: qwen2.5:1.5b
+  timeout_seconds: 60
+  max_retries: 3
+  retry_backoff_seconds: 2
+
+scheduler:
+  tick_interval_seconds: 60
+  catch_up_missed_jobs: true
+
+agents:
+  email:
+    enabled: false
+    poll_interval_minutes: 60
+  github:
+    enabled: false
+    poll_interval_minutes: 30
+  internship:
+    enabled: false
+    poll_interval_hours: 12
+  calendar:
+    enabled: false
+    poll_interval_minutes: 60
+  browser:
+    enabled: false
+    headless: true
+  learning:
+    enabled: true
+
+resource_manager:
+  cpu_high_threshold_pct: 80
+  battery_low_threshold_pct: 20
+  check_interval_seconds: 30
+
+telemetry:
+  enabled: true
+  flush_interval_seconds: 300
+
+memory:
+  consolidation_hour: 2  # 2 AM daily consolidation
+  working_memory_max_items: 50
+  daily_memory_max_days: 7
+
+notifications:
+  desktop_enabled: true
+  telegram_enabled: false
