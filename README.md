@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🦉 Athena — Personal AI Operating System
 
 > A local-first, privacy-preserving AI assistant that runs entirely on your laptop.  
@@ -259,3 +260,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 ---
 
 *Built with ❤️ as a local-first alternative to cloud AI assistants.*
+=======
+# Project-Athena
+>>>>>>> 0018513cd91c66f2703db9f9b0aa77be27f4c966
